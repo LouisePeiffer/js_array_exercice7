@@ -1,0 +1,40 @@
+// Exercice 7 
+
+// 1 
+let prenom = ['ayhan', 'elias', 'nico', 'andre'];
+console.log(prenom);
+console.log(prenom[3]);
+console.log(prenom.length);
+
+
+console.log("________________");
+// 2 
+let monTab = ['ayhan'];
+console.log(monTab);
+monTab.push('elias');
+console.log(monTab);
+
+
+console.log("________________");
+// 3
+
+let classeCoding16 = [];
+
+classeCoding16.push("ayhan");
+console.log(`${classeCoding16[classeCoding16.indexOf('ayhan')]} arrive en classe à 8h43 `);
+
+classeCoding16.push('benedicte');
+console.log(`${classeCoding16[classeCoding16.indexOf('benedicte')]} attive à 8h44 et commence à mettre à jour ses notes`);
+
+
+console.log("________________");
+//BONUS
+let tabBoucle = ["a", "b", "c"];
+
+// tabBoucle.forEach(element => {
+//     console.log(element);
+// });
+
+tabBoucle.forEach(element => console.log(element));
+
+console.log('FINI');
